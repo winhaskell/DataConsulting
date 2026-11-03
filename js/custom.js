@@ -100,11 +100,7 @@ $(function(){
        "images/home-bg-slideshow9.jpg",
        "images/home-bg-slideshow8.jpg"
        "images/home-bg-slideshow1.jpg", 
-       "images/home-bg-slideshow2.jpg",
-        ],  
-       {duration: 5000, 
-        fade: 1000
-       });
+      ],  {duration: 2000,  fade: 750});
       
     });
     
