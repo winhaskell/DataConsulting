@@ -104,9 +104,10 @@ $(function(){
        "images/home-bg-slideshow9.jpg",
        "images/home-bg-slideshow8.jpg",
        "images/home-bg-slideshow1.jpg",
-       "images/home-bg-slideshow2.jpg"
+       "images/home-bg-slideshow2.jpg",
+       "images/home-bg-slideshow7.jpg"
       ],  
-              {duration: 6000,  
+              {duration: 7000,  
                fade: 1000});  
       
     });
