@@ -109,7 +109,7 @@ $(function(){
        "images/home-bg-slideshow7.jpg"
       ],  
               {duration: 6000,  
-               fade: 1000});  
+               fade: 800});  
       
     });
     
