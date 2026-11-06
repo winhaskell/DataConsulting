@@ -94,6 +94,7 @@ $(function(){
 
 
   // HOME BACKGROUND SLIDESHOW
+  
   $(function()
     {
     jQuery(document).ready(function() {
@@ -107,7 +108,7 @@ $(function(){
        "images/home-bg-slideshow2.jpg",
        "images/home-bg-slideshow7.jpg"
       ],  
-              {duration: 7000,  
+              {duration: 6000,  
                fade: 1000});  
       
     });
