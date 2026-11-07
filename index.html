@@ -657,6 +657,17 @@ http://www.tooplate.com/view/2075-digital-team
 <script src="js/wow.min.js"></script>
 <script src="js/custom.js"></script>
 
+
+<script>
+document.addEventListener('dragstart', function(event) {
+    if (event.target.tagName === 'IMG') {
+        event.preventDefault();
+    }
+});
+</script>
+
+
+	
 </body>
 </html>
 
