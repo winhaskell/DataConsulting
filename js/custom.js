@@ -14,9 +14,14 @@ jQuery(document).ready(function($){
         itemSelector: '.iso-box'
         });
 
-        $imgs.load(function(){
-          $container.isotope('reLayout');
-        })
+ 
+
+        $imgs.on('load', function(){
+        $container.isotope('layout');
+        });
+
+
+        
 
       });
 
