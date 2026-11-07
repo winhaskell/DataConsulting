@@ -110,7 +110,7 @@ $(function(){
        "images/home-bg-slideshow7.jpg",
        "images/home-bg-slideshow5.jpg"
       ],  
-              {duration: 6000,  
+              {duration: 9000,  
                fade: 800});  
       
     });
