@@ -1,3 +1,4 @@
 # DataConsulting
+Copyright © Turing & Feynman Consulting
+Design: Alan Chen
 
-最后更新: 2026年11月08日
