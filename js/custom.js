@@ -102,15 +102,16 @@ $(function(){
 
        "images/home-bg-slideshow6.jpg",
        "images/home-bg-slideshow4.jpg",
-       "images/home-bg-slideshow9.jpg",
+       
        "images/home-bg-slideshow8.jpg",
        "images/home-bg-slideshow3.jpg",
+      
        "images/home-bg-slideshow1.jpg",
        "images/home-bg-slideshow2.jpg",
-       "images/home-bg-slideshow7.jpg",
+     
        "images/home-bg-slideshow5.jpg"
       ],  
-              {duration: 9000,  
+              {duration: 6000,  
                fade: 800});  
       
     });
