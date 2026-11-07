@@ -121,8 +121,17 @@ $(function(){
                fade: 1000});  
       
     });
+
+      
+         // 禁止首页轮播区域拖动
+            $('#home').on('dragstart', function(e) {
+            e.preventDefault();
+            });
     
-  })
+   });
 
 });
+
+
+
 
