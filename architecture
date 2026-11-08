@@ -1,10 +1,12 @@
 DataConsulting/
 │
 ├── index.html
+├── architecture
 ├── robots.txt        
 ├── sitemap.xml       
 ├── css/
 ├── js/
 ├── fonts/
 ├── images/
+├── version
 └── README.md
