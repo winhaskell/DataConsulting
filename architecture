@@ -5,5 +5,6 @@ DataConsulting/
 ├── sitemap.xml       
 ├── css/
 ├── js/
-└── images/
+├── fonts/
+├── images/
 └── README.md
