@@ -1,4 +1,14 @@
 # DataConsulting
-Copyright © Turing & Feynman Consulting
-Design: Alan Chen
+
+## Turing & Feynman Consulting
+
+Official Website:
+
+https://chenmujun.cn/
+
+Services:
+- Database Engineering
+- Software Architecture
+- Data Science & AI
+- Technology Consulting
 
