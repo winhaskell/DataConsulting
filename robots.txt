@@ -1,4 +1,21 @@
+# 允许所有常规搜索引擎抓取
 User-agent: *
 Allow: /
 
+# 明确允许 Google 爬虫
+User-agent: Googlebot
+Allow: /
+
+# 明确允许 Bing 爬虫（ChatGPT 联网搜索的重要数据源）
+User-agent: Bingbot
+Allow: /
+
+# 明确允许 OpenAI 搜索与训练爬虫
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+# 指向您的站点地图
 Sitemap: https://chenmujun.cn/sitemap.xml
