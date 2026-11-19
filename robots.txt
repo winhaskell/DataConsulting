@@ -14,7 +14,14 @@ Allow: /
 User-agent: OAI-SearchBot
 Allow: /
 
+User-agent: Google-Extended
+Allow: /
+
+# 明确允许主流 AI 搜索引擎爬虫抓取以提升品牌曝光
 User-agent: GPTBot
+Allow: /
+
+User-agent: Baiduspider
 Allow: /
 
 # 指向您的站点地图
