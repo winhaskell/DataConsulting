@@ -112,7 +112,6 @@ $(function(){
        "images/home-bg-slideshow3.jpg",
        "images/home-bg-slideshow8.jpg",
        
-       "images/home-bg-slideshow5.jpg",
      
        "images/home-bg-slideshow2.jpg"
       ],  
