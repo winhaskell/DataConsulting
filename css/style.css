@@ -603,11 +603,21 @@ pricing section
 /* ==========================================================================
 contact section
 ========================================================================== */
+
+
 #contact {
-  background: #3B3B3B url('../images/contact-bg.jpg') no-repeat center center;
+  /* 叠加一层极轻的深色渐变遮罩，防止光球太亮遮挡白色文字 */
+  background-image: linear-gradient(rgba(2, 11, 24, 0.65), rgba(2, 11, 24, 0.80)), url('../images/contact-bg.jpg');
   background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-color: #020b18; /* 与新图边缘一致的深暗青色，彻底告别灰色 */
   color: #ffffff;
 }
+
+
+
+
 #contact h2 {
   padding-bottom: 20px;
 }
