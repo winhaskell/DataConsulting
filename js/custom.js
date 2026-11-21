@@ -100,29 +100,30 @@ $(function(){
 
   // HOME BACKGROUND SLIDESHOW
   
-  $(function()
-    {
-    jQuery(document).ready(function() {
+ $(function() {
+  // 1. 首屏瞬间只加载第 1 张图，保证打开即显示
+   
+  $('#home').backstretch("images/home-bg-slideshow6.jpg");
+
+  
+   // 2. 延迟 3 秒，等页面主体渲染完毕后再静默加载其余 4 张轮播图
+  
+   setTimeout(function() {
     $('#home').backstretch([
-
-       "images/home-bg-slideshow6.jpg",
-       "images/home-bg-slideshow4.jpg",
-       
-       
-       "images/home-bg-slideshow3.jpg",
-       "images/home-bg-slideshow8.jpg",
-       
-     
-       "images/home-bg-slideshow2.jpg"
-      ],  
-                           
-              {duration: 5000,  
-               fade: 1000});  
-      
+      "images/home-bg-slideshow6.jpg",
+      "images/home-bg-slideshow4.jpg",
+      "images/home-bg-slideshow3.jpg",
+      "images/home-bg-slideshow8.jpg",
+      "images/home-bg-slideshow2.jpg"
+    ], {
+      duration: 5000,
+      fade: 1000
     });
+  }, 3000);
 
-      
-         // 禁止首页轮播区域拖动
+
+   
+ // 禁止首页轮播区域拖动
             $('#home').on('dragstart', function(e) {
             e.preventDefault();
             });
