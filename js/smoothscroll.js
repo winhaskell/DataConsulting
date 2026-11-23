@@ -32,4 +32,3 @@ if (window.jQuery) {
 jQuery(function($){ $.localScroll({filter:'.smoothScroll'}); });
 
 }
-}
