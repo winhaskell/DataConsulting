@@ -79,11 +79,7 @@ $(window).scroll(function() {
 $(function(){
 
   // ------- WOW ANIMATED ------ //
-  wow = new WOW(
-  {
-    mobile: false
-  });
-  wow.init();
+ 
 
 
   // HIDE MOBILE MENU AFTER CLIKING ON A LINK
