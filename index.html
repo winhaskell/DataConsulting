@@ -1002,11 +1002,7 @@ http://www.tooplate.com/view/2075-digital-team
 
 
 
-
-
-
-			
-
+				
 				
 			</div>
 		</div>
@@ -1014,6 +1010,11 @@ http://www.tooplate.com/view/2075-digital-team
 </footer>
 
 
+
+
+	
+
+<!-- 	
 <script src="js/jquery.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/smoothscroll.js"></script>
@@ -1023,8 +1024,28 @@ http://www.tooplate.com/view/2075-digital-team
 <script src="js/jquery.backstretch.min.js"></script>
 <script src="js/wow.min.js"></script>
 <script src="js/custom.js"></script>
+-->
 
 
+
+	
+<!-- 1. 所有外部 JS 加上 defer：按严格顺序加载执行，但绝不阻塞首屏画面渲染 -->
+<script src="js/jquery.js" defer></script>
+<script src="js/bootstrap.min.js" defer></script>
+<script src="js/smoothscroll.js" defer></script>
+<script src="js/isotope.js" defer></script>
+<script src="js/imagesloaded.min.js" defer></script>
+<script src="js/nivo-lightbox.min.js" defer></script>
+<script src="js/jquery.backstretch.min.js" defer></script>
+<script src="js/wow.min.js" defer></script>
+<script src="js/custom.js" defer></script>
+
+
+
+
+
+	
+<!-- 2. 禁止拖拽图片（原生代码不依赖 jQuery，保留即可） -->	
 <script>
 document.addEventListener('dragstart', function(event) {
     if (event.target.tagName === 'IMG') {
@@ -1032,6 +1053,8 @@ document.addEventListener('dragstart', function(event) {
     }
 });
 </script>
+
+
 
 
 	
