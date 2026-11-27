@@ -103,7 +103,7 @@ $(function(){
  $(function() {
   // 1. 首屏瞬间只加载第 1 张图，保证打开即显示
    
-  $('#home').backstretch("images/home-bg-slideshow6.jpg");
+  // $('#home').backstretch("images/home-bg-slideshow6.jpg");
 
   
    // 2. 延迟 3 秒，等页面主体渲染完毕后再静默加载其余 4 张轮播图
